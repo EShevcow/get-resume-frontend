@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Autorize & Registre</title>
+    <link rel="stylesheet" href="css/wirefigma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+<body>
+   
+   <main class="wrapper-center">
+
+    <div class="card-vertical">
+        <div class="card__wrap">
+            
+            <!--Start Head Notif-->
+            <div class="notif-block">
+                <div class="notif-block__wrap notif-block__action">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>        
+            <!--End Head Notif-->
+            <div class="card__text-block">
+
+                <!--Start Tabs-->
+                <div class="tabs">
+                    <ul class="tabs__wrap">
+                        <li class="tabs__item active" data-tab="tab1">
+                            <span class="text-label">
+                                Авторизация
+                            </span>
+                        </li>
+                        <li class="tabs__item" data-tab="tab2">
+                            <span class="text-label">
+                                Регистрация
+                            </span>
+                        </li>
+                       
+                    </ul>
+                </div> 
+
+                <div class="tab-content active" id="tab1">
+                   <form class="get-autorize" action="" method="post">
+                    <div class="input-field">
+                        <input class="input-field__input" id="log" name="login" type="email">
+                        <label class="input-field__label" for="log">Login:</label>
+                    </div>
+                    <div class="input-field">
+                        <input class="input-field__input" id="pas" name="password" type="password">
+                        <label class="input-field__label" for="pas">Password:</label>
+                    </div>
+                    <div class="notif-block">
+                        <div class="notif-block__wrap notif-block__danger">
+                            
+                            <span class="text-body">
+                              Danger
+                            </span>
+                        </div>
+                    </div>         
+                    <button class="btn primary" type="submit">    
+                        <span class="body-bold">Autorize</span>
+                        <i class="icofont-rounded-right"></i>
+                    </button>
+                   </form>
+                </div>  
+                <div class="tab-content" id="tab2">
+                   <form class="get-autorize" action="" method="post">
+                    <div class="notif-block">
+                        <div class="notif-block__wrap notif-block__danger">
+                            <span class="large-icon">
+                                <i class="icofont-lock"></i>
+                            </span>
+                            <span class="text-body">
+                              Регистрация недоступна 
+                            </span>
+                        </div>
+                    </div>        
+                   </form>
+                </div>
+                <!--/End Tabs-->
+
+            
+         </div>
+       </div>
+    </div>
+   </main>
+
+  <!--Start Linq Scripts-->
+  <script src="js/jquery-3.6.4.js"></script>
+  <script src="js/wirefigma.js"></script>
+  <script src="js/script.js"></script>
+  <!--/End Linq Scripts-->  
+</body>
+</html>

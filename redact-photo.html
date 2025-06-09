@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Redact Resume Image</title>
+    <link rel="stylesheet" href="css/wirefigma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+<body>
+
+    <!--Start Navbar-->
+    <nav class="navbar header-nav"> 
+        <div class="navbar__wrap">   
+         <a href="#" class="brand-logo">
+          <img src="img/logo.png" alt="Avatar">
+         </a>
+          <ul class="navbar__menu">
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+            </li>
+          </ul>
+          <ul class="navbar-toggle">
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+              </li>
+          </ul>
+          <a class="navbar-burger" href="#">
+            <i class="icofont-navigation-menu"></i>
+          </a>
+        </div> 
+       </nav>
+       <!-- /End Navbar -->
+
+  <div class="wrapper-left">
+
+   
+        <!-- Start Main Content -->
+        <main class="column">
+           
+            <!--Start Breadcrumb Nav-->
+            <div class="card-vertical">
+                 <div class="breadcrumb">
+                     <div class="breadcrumb__wrap">
+                        <a class="breadcrumb__link" href="profile.html">
+                            <span class="bredcrumb__label">Профиль</span>
+                            <i class="icofont-rounded-right"></i>
+                        </a>
+                        <a class="breadcrumb__link" href="add-resume.html">
+                            <span class="bredcrumb__label">Добавление резюме</span>
+                            <i class="icofont-rounded-right"></i>
+                        </a>
+                        <a class="breadcrumb__link breadcrumb__link_active" href="profile.html">
+                            <span class="bredcrumb__label">Обновление фото</span>
+                        </a>
+                    </div>
+                </div> 
+            </div>  
+            <!--/End Breadcrumb Nav-->
+
+            <!--Start Profile Head-->
+            <div class="card-vertical">
+                <div class="card__wrap">
+                
+                    <div class="card__text-block">
+                        <form action="" method="post" enctype="multipart/form-data">
+
+                        <div class="file-field input-field">
+                            <div class="wireimage">
+                                <div class="image__wrap">
+                                   <img src="img/avatar.jpg" alt="Image">
+                                  
+                                </div>
+                            </div> 
+                             <input type="file" name="avatar">  
+                        </div>
+
+                            <div class="input-field">
+                                <input class="input-field__input" id="fn" name="fullname" type="text" value="Tibor Lovas">
+                                <label class="input-field__label" for="fn">Редактировать имя:</label>
+                            </div>
+
+                             <div class="card__action">
+
+                        <a class="btn primary" href="#">
+                          <span class="body-bold">
+                            <i class="icofont-save"></i>
+                            Сохранить
+                         </span>
+                        </a>
+                    </div>
+                </form>
+                   
+                 </div>
+               </div>
+            </div>
+            <!--/End Profile Head-->
+
+            <!--Start Resume Items-->
+            <div class="card-horizontal">
+                <div class="card__wrap">
+                    <div class="card__text-block">
+                        <span class="body-text">Backend Developer</span>
+                        <span class="text-small">
+                            shevcovedvard@yandex.ru
+                        </span>
+                        <span class="text-small">
+                            89252334599
+                        </span>
+                        <div class="card__action">
+                            <a class="btn primary" href="head-resume.html">
+                              <span class="body-bold">
+                                Редактировать разделы резюме
+                                <i class="icofont-arrow-right"></i>    
+                             </span>
+                            </a>
+                            <a class="btn secondary" href="redact-info-resume.html" >    
+                                <span class="body-bold">Редактировать информацию</span>
+                                <i class="icofont-pencil"></i>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!--/End Resume Items-->
+            
+        </main>
+        <!--/End Main Content-->
+
+        <!--Start Aside & Ads-->
+        <aside class="column">
+
+         <!--Start Ads Block-->
+         <div class="get-ads">
+            <div class="wireimage">
+                <div class="image__wrap">
+                   <img src="img/keyboard.jpg" alt="Image">
+                </div>
+               </div> 
+           </div>
+           <!--/End Ads Block-->
+
+        </aside>
+        <!--/End Aside -->
+        </div>
+
+  <!--Start Linq Scripts-->
+  <script src="js/jquery-3.6.4.js"></script>
+  <script src="js/wirefigma.js"></script>
+  <script src="js/script.js"></script>
+  <!--/End Linq Scripts-->
+</body>
+</html>

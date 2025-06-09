@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/wirefigma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+<body>
+
+    <!--Start Navbar-->
+    <nav class="navbar header-nav"> 
+        <div class="navbar__wrap">   
+         <a href="#" class="brand-logo ">
+           <img src="img/logo.png" alt="Logo">
+         </a>
+          <ul class="navbar__menu">
+            <li>
+                <a href="profile.html">
+                    Профиль
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+            </li>
+          </ul>
+          <ul class="navbar-toggle">
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+              </li>
+          </ul>
+          <a class="navbar-burger" href="#">
+            <i class="icofont-navigation-menu"></i>
+          </a>
+        </div> 
+       </nav>
+       <!-- /End Navbar -->
+
+  <div class="wrapper-left">
+
+        <!-- Start Main Content -->
+        <main class="column">
+           
+            <!--Start Breadcrumb Nav-->
+            <div class="card-vertical">
+                 <div class="breadcrumb">
+                     <div class="breadcrumb__wrap">
+                        <a class="breadcrumb__link" href="profile.html">
+                            <span class="bredcrumb__label">Профиль</span>
+                            <i class="icofont-rounded-right"></i>
+                        </a>
+                        <a class="breadcrumb__link" href="#">
+                            <span class="bredcrumb__label">Редактирование профиля</span>
+                        </a>
+                    </div>
+                </div> 
+            </div>  
+            <!--/End Breadcrumb Nav-->
+
+
+            <!--Start Resume Items-->
+            <div class="card-vertical">
+                <div class="card__wrap"> 
+                    <div class="card__text-block">
+                    <span class="body-text">Редактирование Профиля</span>
+                    <form class="column" action="" method="post">
+                         <div class="input-field">
+                          <input class="input-field__input" name="fullname" type="text" value="">
+                         </div>
+                         <!--
+                        <div class="input-field">
+                          <input class="input-field__input" name="email" type="email" value="">
+                        </div>
+                         -->
+                        <div class="input-field">
+                        <select class="input-field__select" name="gender"> 
+                            <option value="woman">Женщина</option> 
+                            <option value="man">Мужчина</option>
+                        </select>
+                          <span class="input-field__icon">
+                          <i class="icofont-rounded-down"></i>
+                         </span>
+                       </div>   
+                        <div class="input-field">
+                         <input class="input-field__date" type="date" name="date-born" value="">
+                        </div>
+                        
+                       
+                        <div class="card__action">
+                            <button class="btn primary">
+                                <i class="icofont-pencil"></i>
+                                <span class="body-bold">Сохранить</span>
+                            </button> 
+                        </div>
+                    </form>  
+                 </div>
+               </div>
+            </div>
+            <!--/End Resume Items-->
+            
+        </main>
+        <!--/End Main Content-->
+
+        <!--Start Aside & Ads-->
+        <aside class="column">
+          
+          <!--Start Ads Block-->
+          <div class="get-ads">
+            <div class="wireimage">
+                <div class="image__wrap">
+                   <img src="img/keyboard.jpg" alt="Image">
+                </div>
+               </div> 
+           </div>
+           <!--/End Ads Block-->
+
+        </aside>
+        <!--/End Aside -->
+        </div>
+
+<!--Start Linq Scripts-->
+<script src="js/jquery-3.6.4.js"></script>
+<script src="js/wirefigma.js"></script>
+<script src="js/script.js"></script>
+<!--/End Linq Scripts-->
+</body>
+</html>
