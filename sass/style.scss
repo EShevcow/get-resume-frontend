@@ -2,31 +2,31 @@ body{
     background: lavender;
 }
 .header-nav{
-    margin: 1em 1em -5px 1em;
+    margin: 10px 1em 0 1em;
 }
 .wrapper-left{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1em;
     padding: 1em;
-    margin: 1em;
+    margin: 0 1em 0 1em;
 }
 .wrapper-center{
     display: grid;
     grid-template-columns: 2fr; 
     margin: 100px 25%;
 }
-.avatar img{
-   max-height: 200px;   
-   width: auto;
-   
-}
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 1em;
     padding: 1em;
-    margin: 1em;
+    margin: 0 10px 0 10px;
+}
+.avatar img{
+   max-height: 200px;   
+   width: auto;
+   
 }
 .content{
     display: flex;
@@ -43,6 +43,14 @@ textarea{
 .get-bg{
     background: #212121;
     color: #FFF;
+}
+.get-blue {
+  background-color: royalblue;
+  border-color: royalblue;
+}
+.get-orange {
+  background-color: darkorange;
+  border-color: darkorange;
 }
 .get-border{
     border-color: #212121;
@@ -93,6 +101,9 @@ textarea{
     & .btn, .notif-block{
         width: 100%;
     }
+}
+.get-footer{
+    margin: 1em;
 }
 @media (max-width: 768px) {
     .wrapper{
