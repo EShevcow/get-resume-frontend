@@ -122,19 +122,127 @@
             <div class="card__wrap">
                 <div class="card__text-block">
                     <span class="body-text">Занятость и график работы</span>
-                    <form action="" method="post">
-                        
-                    </form>
-                <div class="card__action">
-                   
-                    <a class="btn primary">
-                        <span class="body-bold">Сохранить</span>
-                    </a> 
-                </div>
+                    <form class="column" action="" method="post">
+
+   <!--Start Accordion options-->
+    <div class="accordion oneopen">  
+        <div class="accordion__header">
+            <span class="body-bold">
+                График работы
+            </span>
+            <i class="icofont-rounded-down"></i>
+        </div>
+        <div class="accordion__body">
+            <div class="column">
+             <label class="form-control">
+            <input class="standart__check" type="checkbox" name="shedule" value="Полный день">
+            <span class="body-bold">Полный день</span> 
+            </label>
+            <label class="form-control">
+            <input class="standart__check" type="checkbox" name="shedule" value="Сменный график">
+            <span class="body-bold">Сменный график</span> 
+           </label>
+            <label class="form-control">
+            <input class="standart__check" type="checkbox" name="shedule" value="Гибкий график">
+            <span class="body-bold">Гибкий график</span> 
+           </label>
+            <label class="form-control">
+            <input class="standart__check" type="checkbox" name="shedule" value="Удаленка">
+            <span class="body-bold">Удаленка</span> 
+          </label>
+            <label class="form-control">
+            <input class="standart__check" type="checkbox" name="shedule" value="Вахта">
+            <span class="body-bold">Вахта</span> 
+          </label>
+        </div>
+        </div>   
+        <div class="accordion__header">
+            <span class="body-bold">
+              Тип Занятости
+            </span>
+            <i class="icofont-rounded-down"></i>
+        </div>
+        <div class="accordion__body">
+           <div class="column">
+             <label class="form-control">
+            <input class="square__check" type="checkbox" name="busies" value="Полная занятость">
+            <span class="body-bold">Полная занятость</span> 
+           </label> 
+            <label class="form-control">
+            <input class="square__check" type="checkbox" name="busies" value="Частичная занятость">
+            <span class="body-bold">Частичная занятость</span> 
+           </label>
+            <label class="form-control">
+            <input class="square__check" type="checkbox" name="busies" value="Проектная занятость">
+            <span class="body-bold">Проектная занятость</span> 
+           </label>
+            <label class="form-control">
+            <input class="square__check" type="checkbox" name="busies" value="Волонтёрство">
+            <span class="body-bold">Волонтёрство</span> 
+            </label>
+            <label class="form-control">
+            <input class="square__check" type="checkbox" name="busies" value="Стажировка">
+            <span class="body-bold">Стажировка</span> 
+            </label>
+           </div>
+        </div>
+        <div class="accordion__header">
+            <span class="body-bold">
+             Желательное время в пути до работы
+            </span>
+            <i class="icofont-rounded-down"></i>
+        </div>
+        <div class="accordion__body">
+           <div class="column">
+             <label class="form-control">
+             <input type="radio" name="way-time" value="Не имеет значения">
+             <span class="body-bold">Не имеет значения</span>
+            </label>
+            <label class="form-control">
+            <input type="radio" name="way-time" value="Не дольше 1 часа">
+            <span class="body-bold">Не дольше 1 часа</span>
+            </label>
+            <label class="form-control">
+            <input type="radio" name="way-time" value="">
+            <span class="body-bold">Не дольше 1,5 часов</span>
+            </label>
+           </div>
+        </div>
+        <div class="accordion__header">
+            <span class="body-bold">Командировки</span>
+        </div>
+        <div class="accordion__body">
+            <div class="column">
+             <label class="form-control">
+             <input type="radio" name="relocate" value="Не могу">
+             <span class="body-bold">Не могу</span>
+            </label>
+            <label class="form-control">
+            <input type="radio" name="relocate" value="Могу">
+            <span class="body-bold">Могу</span>
+            </label>
+                <label class="form-control">
+            <input type="radio" name="relocate" value="Могу иногда">
+            <span class="body-bold">Могу иногда</span>
+            </label>
+            </div>
+        </div>
+    </div>
+    <!--/End Accordion Options -->
+
+            <div class="card__action">
+                <a class="btn primary">
+                    <span class="body-bold">Сохранить</span>
+                </a> 
+            </div>          
+  
+</form>
+                
              </div>
            </div>
         </div>
             <!--/End Work Options-->
+            
           </div>
         </main>
     </div>
