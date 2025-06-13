@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Redact Education </title>
+    <link rel="stylesheet" href="css/wirefigma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+<body>
+    
+    <!--Start Navbar-->
+    <nav class="navbar header-nav"> 
+        <div class="navbar__wrap">   
+         <a href="#" class="brand-logo ">
+           <img src="img/logo.png" alt="Logo">
+         </a>
+          <ul class="navbar__menu">
+            <li>
+                <a href="profile.html"> 
+                    Профиль
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+            </li>
+          </ul>
+          <ul class="navbar-toggle">
+            <li>
+                <a href="profile.html">
+                    Профиль
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="icofont-exit"></i>  
+                    Exit
+                </a>
+              </li>
+          </ul>
+          <a class="navbar-burger" href="#">
+            <i class="icofont-navigation-menu"></i>
+          </a>
+        </div> 
+       </nav> 
+       <!--/End Navbar
+       -->
+    <div class="wrapper">
+        <aside class="column">
+
+           <!--Start Sidenav-->
+            <div class="sidenav">
+                <div class="sidenav__wrap">
+                    <a href="head-resume.html" class="sidenav__item">
+                        <span class="text-label">Главная</span>
+                    </a>
+                    <a href="experience.html" class="sidenav__item">
+                        <span class="text-label">Опыт работы</span>
+                    </a>
+                    <a href="skills.html" class="sidenav__item">
+                        <span class="text-label">Навыки</span>
+                    </a>
+                     <a href="educations.html" class="sidenav__item sidenav__item_active">
+                        <span class="text-label">Образование</span>
+                    </a>
+                </div>
+            </div> 
+
+            <!--Start Ads Block-->
+            <div class="get-ads">
+                <div class="wireimage">
+                    <div class="image__wrap">
+                       <img src="img/keyboard.jpg" alt="Image">
+                    </div>
+                   </div> 
+               </div>
+               <!--/End Ads Block-->
+        </aside>
+        <main class="column">
+
+           <!--Start Breadcrumb Nav-->
+           <div class="card-vertical">
+           <div class="breadcrumb">
+            <div class="breadcrumb__wrap">
+                <a class="breadcrumb__link" href="experience.html">
+                    <span class="bredcrumb__label">Образование</span>
+                    <i class="icofont-rounded-right"></i>
+                </a>
+                <a class="breadcrumb__link  breadcrumb__link_active" href="#">
+                    <span class="bredcrumb__label">Редактирование: </span>
+
+                </a>
+               
+            </div>
+         </div> 
+      </div>
+            <!--/End Breadcrumb Nav-->
+            
+<!--Start Redact Block-->
+<div class="card-horizontal">
+<div class="card__wrap">
+    <div class="card__text-block">
+        <span class="body-text">Редактировать образование</span>
+
+            <form class="column" action="" method="post">
+
+                <div class="input-field">
+                    <select class="input-field__select" name="level" id="sel1">  
+                        <option value="Начальное профессиональное" selected>Начальное профессиональное</option>
+                            <option value="Среднее Специальное">Среднее Специальное</option>
+                            <option value="Неоконченное Высшее">Неоконченное Высшее</option>
+                            <option value="Высшее Бакалавр">Высшее Бакалавр</option>
+                            <option value="Высшее Магистратура">Высшее Магистратура</option>
+                            <option value="Высшее Специальное">Высшее Специальное</option>
+                            <option value="Аспирантира и выше">Аспирантира и выше</option>
+                    </select>
+                    <span class="input-field__icon">
+                        <i class="icofont-rounded-down"></i>
+                    </span>
+                    <label class="input-field__label" for="sel1">Уровень Образования</label>
+                </div> 
+                    <div class="input-field">
+                    <input class="input-field__input get-input" id="institute" name="institute" type="text" value="">
+                    <label class="input-field__label" for="institute">Учебное заведение</label>
+                    </div>
+                    <div class="input-field">
+                    <input class="input-field__input get-input" id="fcl" name="facultet" type="text" value="">
+                    <label class="input-field__label" for="fcl">Факультет</label>
+                    </div>
+                    <div class="input-field">
+                    <input class="input-field__input get-input" id="sp" name="special" type="text" value="">
+                    <label class="input-field__label" for="sp">Специализация</label>
+                    </div>
+                <div class="input-field">
+                    <input class="input-field__date get-input" type="date" name="begdate" id="beg" value="">
+                    <label class="input-field__label" for="beg">Дата Начала Обучения</label>
+                </div>
+                    <div class="input-field">
+                    <input class="input-field__date get-input" type="date" name="enddate" id="end" value="">
+                    <label class="input-field__label" for="end">Дата Оканчания</label>
+                </div>
+                
+            
+                <button class="btn primary" type="submit">
+                    <i class="icofont-ui-add"></i>
+                    <span class="body-bold">Изменить</span>    
+                </button>
+            
+            </form>  
+        
+                   </div>
+                </div>
+            </div>           
+               
+          
+        </main>
+    </div>
+    
+<!--Start Footer-->
+ <footer class="get-footer">
+        <div class="footer-content">
+            <div class="footer-img"> 
+                <img src="img/icon.png" alt="logo">
+            </div>
+          <ul class="social">
+            <li>
+              <a href="#" target="_blank" class="social__link social__link_vk" title="В Контакте">
+                <i class="icofont-vk"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social__link social__link_suno" title="Suno AI">
+                <i class="icofont-sound-wave"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social__link social__link_github" title="github">
+                <i class="icofont-github"></i>
+             </a>  
+            </li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+            <span class="text-micro">
+                <i class="icofont-copyright"></i>
+                Edvard Shevcov Think Power 2024
+            </span>
+            <a href="#" class="other-link">Live Int</a>
+        </div>
+     </footer>  
+    <!--/End Footer-->
+
+    <!--Start Linq Scripts-->
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/wirefigma.js"></script>
+    <script src="js/script.js"></script>
+    <!--/End Linq Scripts-->
+</body>
+</html>
