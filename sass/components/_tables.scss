@@ -1,6 +1,7 @@
 /* Tables */
 table{
     width: 70vw;
+
 }
 tr{
     display: flex;
@@ -25,4 +26,7 @@ th{
 }
 .striped tr:nth-child(odd){
     background-color: lavender;
+}
+.striped tr:nth-child(even){
+    background-color: #FFFFFF;
 }
