@@ -3,13 +3,14 @@ body{
 }
 main{
     min-height: 60vh;
+   
 }
-
-section{
+ section{
     background: #FFF; 
     padding: 2em 2em;
     margin: -15px 1em 0 1em;
 }
+
 .header-nav{
     margin: 10px 1em 0 1em;
 }
@@ -126,6 +127,26 @@ textarea{
 .get-footer{
     margin: 1em;
 }
+
+.landing-header {
+  height: 70vh;
+   & .get-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+    background:  rgba(33, 33, 33, 0.7);
+    color: #FFF;
+   }
+   
+}
+.landing-section{
+   margin: 0;
+   min-height: 500pxgi add;
+}
+
 @media (max-width: 768px) {
     .wrapper{
         grid-template-columns: auto;
